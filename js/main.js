@@ -1,11 +1,4 @@
 
-
-document.getElementById('gform').onload = function() {
-  var iframe = $("#gform").contents();
-  iframe.find('body > div > div.freebirdFormviewerViewFormBanner.freebirdHeaderMast')
-          .removeClass('background-image');
-        console.log('remove');
-}
 /* 
    CounterUp
    ========================================================================== */
