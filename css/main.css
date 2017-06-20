@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
 
+.gray-back {
+  background-color: #fff
+}
 .btn-sign {
   background-color: #008980;
   border-color: #008980
@@ -14,6 +17,11 @@
 .sign {
   background-color: #fff;
   margin-bottom: 0 !important;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
 }
 
 img.center {
@@ -40,6 +48,7 @@ iframe, object, embed {
  width: auto;
  background: #6DB3F2;
 }
+
 .commit {
   min-height:100px;
   min-width:100px;
@@ -48,24 +57,32 @@ iframe, object, embed {
   width: auto;
 }
 
+.video {
+  padding: 10px 5px;
+}
+
 @media screen and (max-width: 700px) {
-    .commit{
-        min-height:100px;
-        min-width:100px;
-        max-width: 100%;
-        height: 100%
-        width: auto;
-    }
+  .commit{
+    min-height:100px;
+    min-width:100px;
+    max-width: 100%;
+    height: 100%
+    width: auto;
+  }
+  .video {
+    width: 80%;
+    height: auto;
+  }
 }
 
 @media screen and (min-width: 1600px) {
-    .commit{
-        min-height:100px;
-        min-width:100px;
-        max-width: 50%;
-        height: 100%
-        width: auto;
-    }
+  .commit{
+    min-height:100px;
+    min-width:100px;
+    max-width: 50%;
+    height: 100%
+    width: auto;
+  }
 }
 
 body {
